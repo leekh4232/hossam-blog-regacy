@@ -410,7 +410,7 @@ textarea {
 
 body {
   background-color: #333333;
-  color: #818181;
+  color: #3f3f3f;
   line-height: 1.66667;
 }
 
@@ -1143,7 +1143,7 @@ green     #859900  operators, other keywords
 
 .nav-menu a {
   border-left: 2px solid #474747;
-  color: #818181;
+  color: #3f3f3f;
   display: block;
   font-weight: bold;
   letter-spacing: 1px;
@@ -1207,7 +1207,7 @@ green     #859900  operators, other keywords
 }
 
 .site-description {
-  color: #818181;
+  color: #3f3f3f;
   float: left;
   font-size: 14px;
   font-style: italic;

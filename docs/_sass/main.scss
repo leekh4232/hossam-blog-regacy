@@ -95,7 +95,7 @@
 
 .nav-menu a {
     border-left: 2px solid $tundora;
-    color: #818181;
+    color: $text;
     display: block;
     font-weight: bold;
     letter-spacing: 1px;
@@ -160,7 +160,7 @@
 }
 
 .site-description {
-    color: #818181;
+    color: $text;
     float: left;
     font-size: 14px;    
     font-style: italic;
