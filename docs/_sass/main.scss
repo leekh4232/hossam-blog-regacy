@@ -1,14 +1,18 @@
----
-# Only the main Sass file needs front matter (the dashes are enough)
----
+/**
+ * Only the main Sass file needs front matter (the dashes are enough)
+ */
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import 
-    "variables",
-    "icons",
-    "reset",
-    "general"
-;
+@import '_variables.scss';
+@import '_icons.scss';
+@import '_reset.scss';
+@import '_general.scss';
+// @import 
+//     "variables",
+//     "icons",
+//     "reset",
+//     "general"
+// ;
 
 /**
  * Table of Contents
@@ -54,6 +58,8 @@
     font-size: 16px;
     margin-bottom: 30px;
     width: 21.666%;
+    position: sticky;
+    top: 0;
 }
 
 /**
