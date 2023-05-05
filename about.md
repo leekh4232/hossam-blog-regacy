@@ -7,6 +7,8 @@ banner_image: aboutPage.jpg
 
 안녕하세요. 프로그래밍 전문 강사 이광호 입니다. 2000년도 초창기부터 C, Visual Basic, ASP, PHP, JSP로 프로그래밍을 시작하였고 WIFI 시절 모바일 게임을 거쳐 현재는 WEB, Mobile(Android, iOS), Python, 데이터 분석 등의 강의를 하고 있습니다.
 
+{% include image_full.html imageurl="/images/images/393216972_xl-notext.jpg" title="enjoy coding" caption="enjoy coding" %}
+
 > Don't Panic
 
 
