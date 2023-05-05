@@ -42,11 +42,11 @@ author_name: "LEE KWANGHO"
 author_bio: "메가스터디IT아카데미에서 Java, Spring, Python, Frontend 등을 강의하고 있는 IT 전문 강사이자 프리렌서 개발자 입니다."
 author_url: "http://www.hossam.kr"
 author_location: "Seoul, Korea"
-author_image: /images/authorimage.png
+author_image: /images/profile.png
 
 # Sidebar Add banner
 banner_url: "https://blog.hossam.kr"
-banner_image: images/banner.jpg
+banner_image: images/profile.png
 
 # Sidebar newsletter widget - add your form action url for MailChimp signup form here
 mailchimp_url: "//justgoodthemes.us3.list-manage.com/subscribe/post?u=78f1bab16028354caeb23aecd&amp;id=4a7330d117"
