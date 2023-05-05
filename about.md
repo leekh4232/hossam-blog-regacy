@@ -7,9 +7,15 @@ banner_image: aboutPage.jpg
 
 안녕하세요. 프로그래밍 전문 강사 이광호 입니다. 2000년도 초창기부터 C, Visual Basic, ASP, PHP, JSP로 프로그래밍을 시작하였고 WIFI 시절 모바일 게임을 거쳐 현재는 WEB, Mobile(Android, iOS), Python, 데이터 분석 등의 강의를 하고 있습니다.
 
-{% include image_full.html imageurl="/images/images/393216972_xl-notext.jpg" title="enjoy coding" caption="enjoy coding" %}
-
 > Don't Panic
+
+`은하수를 여행하는 히치하이커를 위한 안내서`의 책장에 적혀 있는 문구 입니다. 영화에서는 이 문구를 "쫄지 말자"라고 번역합니다. 이 문구는 강의를 진행하면서 만나게 되는 수 많은 수강생들에게 해 주고 싶은 말이기도 합니다.
+
+> Just play. Have fun. Enjoy the game.
+
+마이클 조던은 그냥 하고, 재미를 느끼고, 즐기라고 말 합니다. 프로그래밍도 마찬가지 입니다. 취업을 위해서라는 목표에 쫓기면 어렵게만 느껴집니다. 프로그래밍은 규칙을 찾기 위해 스스로 탐구하는 과정에서 원리를 발견해 나가는 과정입니다. 훈련생들로 하여금 이 과정이 즐겁게 느껴질 수 있도록 열심히 노력하고 끊임없이 공부하고 있습니다.
+
+{% include image_full.html imageurl="/images/393216972_xl-notext.jpg" title="enjoy coding" caption="enjoy coding" %}
 
 
 ### 학력
