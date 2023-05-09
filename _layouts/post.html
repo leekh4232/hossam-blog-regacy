@@ -9,7 +9,7 @@ layout: default
                     <div class="entry-header-wrap">
                         {% if page.banner_image %}
                         <div class="post-thumbnail">
-                            <img src="{{ "/images/posts/" | append: page.banner_image | prepend: site.baseurl }}" alt="{% if page.banner_image_alt %}{{ page.banner_image_alt }}{% else %}{{ page.title }}{% endif %}">
+                            <img src="{{ "/_posts/images/" | append: page.banner_image | prepend: site.baseurl }}" alt="{% if page.banner_image_alt %}{{ page.banner_image_alt }}{% else %}{{ page.title }}{% endif %}">
                         </div><!-- .post-thumbnail -->
                         {% endif %}
                         <h1 class="entry-title">{{page.title}}</h1>
@@ -51,7 +51,7 @@ layout: default
                 <div class="nav-previous">
                     <div class="nav-inside">
                         {% if page.previous.banner_image %}
-                        <a href="{{ site.baseurl }}{{page.previous.url}}" class="nav-thumb" style="background-image: url({{ "/images/posts/" | append: page.previous.banner_image }})"></a>
+                        <a href="{{ site.baseurl }}{{page.previous.url}}" class="nav-thumb" style="background-image: url({{ "/_posts/images/" | append: page.previous.banner_image }})"></a>
                         {% endif %}
                         <div class="nav-before">Previous</div>
                         <div class="nav-title"><a href="{{ site.baseurl }}{{page.previous.url}}">{{page.previous.title}}</a></div>
@@ -63,7 +63,7 @@ layout: default
                 <div class="nav-next">
                     <div class="nav-inside">
                         {% if page.next.banner_image %}
-                        <a href="{{ site.baseurl }}{{page.next.url}}" class="nav-thumb" style="background-image: url({{ "/images/posts/" | append: page.next.banner_image }})"></a>
+                        <a href="{{ site.baseurl }}{{page.next.url}}" class="nav-thumb" style="background-image: url({{ "/_posts/images/" | append: page.next.banner_image }})"></a>
                         {% endif %}
                         <div class="nav-before">Next</div>
                         <div class="nav-title"><a href="{{ site.baseurl }}{{page.next.url}}">{{page.next.title}}</a></div>
