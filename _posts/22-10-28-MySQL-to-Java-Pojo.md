@@ -2,7 +2,7 @@
 layout: post
 title:  "테이블 스키마 기반 POJO 클래스의 멤버변수 선언문 생성"
 date:   2022-10-28
-banner_image: 22-10-28/index.jpg
+banner_image: 2022/1028/index.jpg
 tags: [프로그래밍,Java]
 ---
 

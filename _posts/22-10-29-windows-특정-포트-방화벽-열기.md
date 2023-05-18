@@ -2,7 +2,7 @@
 layout: post
 title:  "Windows 특정 포트 방화벽 열기"
 date:   2022-10-29
-banner_image: 22-10-29/index.png
+banner_image: 2022/1029/index.png
 tags: [운영체제,Windows]
 ---
 
@@ -16,41 +16,41 @@ tags: [운영체제,Windows]
 
 `WinKey+R`을 누른후 실행 창에서 **wf.msc**를 입력하고 확인을 누른다.
 
-![방화벽 설정 열기](/images/posts/22-10-29/wf1.png)
+![방화벽 설정 열기](/images/posts/2022/1029/wf1.png)
 
 ### 2) 새 인바운드 규칙 추가
 
 왼쪽 메뉴에서 **인바운드 규칙**을 선택하고 오른쪽 메뉴에서 **새 규칙**을 클릭한다.
 
-![새 인바운드 규칙 추가](/images/posts/22-10-29/wf2.png)
+![새 인바운드 규칙 추가](/images/posts/2022/1029/wf2.png)
 
 ### 3) 포트 설정 추가
 
 포트를 선택하고 다음으로 넘어간다.
 
-![포트 설정 추가](/images/posts/22-10-29/wf3.png)
+![포트 설정 추가](/images/posts/2022/1029/wf3.png)
 
 ### 4) 허용할 포트 입력하기
 
 프로토콜 종류를 **TCP**로 선택하고 접근을 허용할 포트를 입력한 후 다음으로 넘어간다.
 
-![허용할 포트 입력하기](/images/posts/22-10-29/wf4.png)
+![허용할 포트 입력하기](/images/posts/2022/1029/wf4.png)
 
 #### 연결 허용 선택
 
-![연결 허용 선택](/images/posts/22-10-29/wf5.png)
+![연결 허용 선택](/images/posts/2022/1029/wf5.png)
 
 #### 연결 위치 지정
 
 모든 위치를 선택하고 다음으로 넘어간다.
 
-![연결 위치 지정](/images/posts/22-10-29/wf6.png)
+![연결 위치 지정](/images/posts/2022/1029/wf6.png)
 
 #### 연결 이름 지정
 
 적절한 값을 입력하고 설정 과정을 마친다.
 
-![연결 이름 지정](/images/posts/22-10-29/wf7.png)
+![연결 이름 지정](/images/posts/2022/1029/wf7.png)
 
 ## #02. 테스트하기
 
