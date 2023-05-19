@@ -1,14 +1,17 @@
 <footer class="site-footer">
     <div class="inner">
         <div class="social-links">
+            {% if site.github_username %}
+            <a href="https://github.com/{{ site.github_username }}" class="fa-github-alt square fill-horizontal"><span class="screen-reader-text">GitHub</span></a>
+            {% endif %}
+            {% if site.youtube_username %}
+            <a href="https://www.youtube.com/{{ site.youtube_username }}" class="fa-youtube square fill-horizontal"><span class="screen-reader-text">Youtube</span></a>
+            {% endif %}
             {% if site.twitter_username %}
             <a href="https://twitter.com/{{ site.twitter_username }}" class="fa-twitter square fill-horizontal"><span class="screen-reader-text">Twitter</span></a>
             {% endif %}
             {% if site.facebook_username %}
             <a href="https://www.facebook.com/{{ site.facebook_username }}" class="fa-facebook square fill-horizontal"><span class="screen-reader-text">Facebook</span></a>
-            {% endif %}
-            {% if site.github_username %}
-            <a href="https://github.com/{{ site.github_username }}" class="fa-github-alt square fill-horizontal"><span class="screen-reader-text">GitHub</span></a>
             {% endif %}
             {% if site.codepen_username %}
             <a href="http://codepen.io/{{ site.codepen_username }}" class="fa-codepen square fill-horizontal"><span class="screen-reader-text">CodePen</span></a>
