@@ -3,7 +3,7 @@ layout: post
 title:  "[R] 행렬(Matrix)"
 date:   2022-11-05
 banner_image: index-r.jpg
-tags: [데이터분석,R]
+tags: [R]
 ---
 
 R에서 다룰 수 있는 연속성 자료형으로서 **행렬** 구조가 있습니다. 행렬은 백터에 **행**과 **열**의 수를 지정하여 나누어 표현한 형태 입니다.

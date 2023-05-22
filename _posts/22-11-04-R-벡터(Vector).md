@@ -3,7 +3,7 @@ layout: post
 title:  "[R] 벡터(Vector)"
 date:   2022-11-04
 banner_image: index-r.jpg
-tags: [데이터분석,R]
+tags: [R]
 ---
 
 여러 개의 스칼라 값들을 연속적으로 저장하는 데이터 형식으로 **연속성 자료형**이라고도 부릅니다. R에서의 연속성 자료형에는 벡터, 요인, 리스트 등이 있습니다.
