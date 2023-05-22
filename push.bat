@@ -6,7 +6,7 @@ git add --all
 
 echo $ git commit -m "update %DATE% %TIME%"
 echo ----------------------------------------
-echo $ git commit -m "update %DATE% %TIME%"
+git commit -m "update %DATE% %TIME%"
 
 echo.
 
