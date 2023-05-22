@@ -1,6 +1,12 @@
 @echo off
 cls
 
+echo $ git pull origin main
+echo ----------------------------------------
+git pull origin main
+
+echo.
+
 echo $ git add --all
 git add --all
 
