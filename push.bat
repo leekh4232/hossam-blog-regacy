@@ -4,9 +4,9 @@ cls
 echo $ git add --all
 git add --all
 
-echo $ git commit -m "update"
+echo $ git commit -m "update %DATE% %TIME%"
 echo ----------------------------------------
-git commit -m "update"
+echo $ git commit -m "update %DATE% %TIME%"
 
 echo.
 
