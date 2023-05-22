@@ -2,7 +2,7 @@
 layout: post
 title:  "Windows 특정 포트 방화벽 열기"
 date:   2022-10-29
-banner_image: 2022/1029/index.png
+banner_image: index-windows.png
 tags: [운영체제,Windows]
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Windows 서비스 등록"
 date:   2022-10-27
-banner_image: 2022/1027/index.png
+banner_image: index-windows.png
 tags: [운영체제,Windows]
 ---
 
