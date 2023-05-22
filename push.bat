@@ -1,9 +1,14 @@
 @echo off
 cls
 
-echo $ git add --all && git commit -m "update %DATE% %TIME%"
+echo $ git add --all
+git add --all
+
+echo.
+
+echo $ git commit -m "update %DATE% %TIME%"
 echo ----------------------------------------
-git add --all && && git commit -m "update %DATE% %TIME%"
+git commit -m "update %DATE% %TIME%"
 
 echo.
 
