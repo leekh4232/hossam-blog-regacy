@@ -21,7 +21,7 @@ tags: [R]
 - **열**: column이나 변수라고도 부름
 - **행**: row나 index라고도 부름
 
-![/images/posts/2022/1108/df.png](/images/posts/2022/1108/df.png)
+![/images/posts/2022/1108/df0.png](/images/posts/2022/1108/df0.png)
 
 ### 2) 데이터프레임과 행렬
 
@@ -59,7 +59,7 @@ sinc <- c(64, 72, NA, 70, 88)
 
 ##### 💻 출력결과
     
-![/images/posts/2022/1108/df1.png](/images/posts/2022/1108/df1.png)
+<img src="/images/posts/2022/1108/df1.png" width="240" />
 
 #### 행, 열의 이름을 갖는 데이터 프레임 생성하기
 
@@ -87,7 +87,7 @@ sinc <- c(64, 72, NA, 70, 88)
 
 ##### 💻 출력결과
     
-![/images/posts/2022/1108/df2.png](/images/posts/2022/1108/df2.png)
+<img src="/images/posts/2022/1108/df2.png" width="300" />
     
 
 ### 2) 텍스트 파일 가져오기
@@ -133,7 +133,7 @@ read.table(file,                     ## 가져올 파일의 경로 혹은 URL (�
 
 ##### 💻 출력결과
     
-![/images/posts/2022/1108/df3.png](/images/posts/2022/1108/df3.png)
+<img src="/images/posts/2022/1108/df3.png" width="300" />
     
 
 #### **옵션을 적용하여 텍스트 파일로부터 데이터프레임 생성하기**
@@ -152,7 +152,7 @@ read.table(file,                     ## 가져올 파일의 경로 혹은 URL (�
     
 > 💡 *텍스트 파일의 첫 행이 컬럼 이름으로 사용되었음을 알 수 있다.*
     
-![/images/posts/2022/1108/df4.png](/images/posts/2022/1108/df4.png)
+<img src="/images/posts/2022/1108/df4.png" width="300" />
 
 ### 3) csv 파일 읽기
 
@@ -182,7 +182,7 @@ read.csv(file,                 ## 가져올 파일의 경로 혹은 URL (필수)
 
 ##### 💻 출력결과
     
-![/images/posts/2022/1108/df5.png](/images/posts/2022/1108/df5.png)
+<img src="/images/posts/2022/1108/df5.png" width="300" />
     
 ### 4) 엑셀파일 가져오기
 
@@ -235,4 +235,4 @@ download.file("https://blog.hossam.kr/data/grade.xlsx", filename, mode='wb')
 
 ##### 💻 출력결과
     
-![/images/posts/2022/1108/df6.png](/images/posts/2022/1108/df6.png)
+<img src="/images/posts/2022/1108/df6.png" width="300" />
