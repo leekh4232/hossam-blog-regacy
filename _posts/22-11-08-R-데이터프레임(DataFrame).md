@@ -21,7 +21,7 @@ tags: [R]
 - **열**: column이나 변수라고도 부름
 - **행**: row나 index라고도 부름
 
-![/images/posts/2022/1108/df0.png](/images/posts/2022/1108/df0.png)
+<img src="/images/posts/2022/1108/df0.png" width="200" />
 
 ### 2) 데이터프레임과 행렬
 
