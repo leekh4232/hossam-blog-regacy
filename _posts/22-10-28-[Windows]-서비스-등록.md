@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Windows 서비스 등록"
+title:  "[Windows] 서비스 등록"
 date:   2022-10-27
 banner_image: index-windows.png
 tags: [운영체제,Windows]
@@ -24,7 +24,7 @@ sc create 서비스이름 binpath=실행파일경로
 sc delete 서비스이름
 ```
 
-# #02. `sc`명령 외에 자체적인 명령어를 사용하는 경우
+# #02. 자체적인 명령어를 사용하는 경우
 
 ## 1) 아파치 웹 서버 서비스 등록하기
 
