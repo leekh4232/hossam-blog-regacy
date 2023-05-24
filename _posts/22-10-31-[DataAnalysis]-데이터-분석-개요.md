@@ -20,7 +20,7 @@ R이나 Python을 활용하여 데이터 분석을 진행하기 위해서는 데
 
 ### 데이터의 구분
 
-![data](/images/posts/2022/1031/data9.png)
+![data](/images/posts/2022/1031/data.png)
 
 #### 범주형 변수(질적척도)
 
