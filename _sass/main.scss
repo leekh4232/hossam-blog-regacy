@@ -3,11 +3,11 @@
  */
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import '_variables.scss';
-@import '_icons.scss';
-@import '_reset.scss';
-@import '_general.scss';
-// @import 
+@import "_variables.scss";
+@import "_icons.scss";
+@import "_reset.scss";
+@import "_general.scss";
+// @import
 //     "variables",
 //     "icons",
 //     "reset",
@@ -69,7 +69,7 @@
  */
 
 .site-navigation {
-    background: lighten( $mine-shaft, 4% );
+    background: lighten($mine-shaft, 4%);
 }
 
 .site-navigation .inner {
@@ -88,8 +88,8 @@
 
 .nav-menu li {
     float: left;
-    font-size: 12px;    
-    line-height: 1.5;    
+    font-size: 12px;
+    line-height: 1.5;
     padding: 16px 0;
     position: relative;
 }
@@ -102,7 +102,7 @@
     letter-spacing: 1px;
     padding: 0 15px;
     text-decoration: none;
-    text-transform: uppercase;    
+    text-transform: uppercase;
 }
 
 .nav-menu li:first-child > a {
@@ -152,7 +152,7 @@
 }
 
 .site-title a:hover {
-    color: lighten( $picton-blue, 11% );
+    color: lighten($picton-blue, 11%);
 }
 
 .site-title .logo-text {
@@ -163,7 +163,7 @@
 .site-description {
     color: $gray;
     float: left;
-    font-size: 14px;    
+    font-size: 14px;
     font-style: italic;
     line-height: 1.5;
     margin-bottom: 0;
@@ -251,7 +251,7 @@
 }
 
 .post .featured-post {
-    background-color: lighten( $picton-blue, 11% );
+    background-color: lighten($picton-blue, 11%);
     color: $white;
     font-size: 14px;
     height: 30px;
@@ -282,7 +282,7 @@
     color: $white;
     float: left;
     font-size: 36px;
-    margin: 60px 0 0;    
+    margin: 60px 0 0;
     max-width: 75%;
     padding: 30px;
     -ms-word-wrap: break-word;
@@ -292,10 +292,10 @@
 .post-thumbnail + .entry-title {
     bottom: 0px;
     left: 0px;
-    position: absolute;    
+    position: absolute;
 }
 
-.entry-title a {    
+.entry-title a {
     color: $white;
     text-decoration: none;
 }
@@ -305,15 +305,15 @@
 }
 
 .entry-meta {
-    background-color: lighten( $picton-blue, 11% ); 
+    background-color: lighten($picton-blue, 11%);
     clear: both;
     color: $white;
     font-size: 12px;
     float: left;
     letter-spacing: 1px;
     line-height: 1.5;
-    padding: 16px 30px;   
-    text-transform: uppercase;    
+    padding: 16px 30px;
+    text-transform: uppercase;
 }
 
 .entry-meta a {
@@ -338,12 +338,12 @@
     text-decoration: none;
     text-transform: uppercase;
     -webkit-transition: background-color 0.3s;
-    -moz-transition:    background-color 0.3s;
-    transition:         background-color 0.3s;
+    -moz-transition: background-color 0.3s;
+    transition: background-color 0.3s;
 }
 
 .read-more .more-link:hover {
-    background-color: lighten( $picton-blue, 11% );
+    background-color: lighten($picton-blue, 11%);
 }
 
 .entry-footer {
@@ -367,7 +367,7 @@
 }
 
 .tag-links {
-    border-top: 2px solid $gallery;    
+    border-top: 2px solid $gallery;
     padding-top: 30px;
 }
 
@@ -384,8 +384,8 @@
     margin-left: 5px;
     text-decoration: none;
     -webkit-transition: all 0.3s;
-    -moz-transition:    all 0.3s;
-    transition:         all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
 }
 
 .share-post a:hover,
@@ -431,7 +431,7 @@
 }
 
 .author-info .author-title {
-    font-size: 16px;    
+    font-size: 16px;
     letter-spacing: 1px;
     margin-bottom: 15px;
     text-transform: uppercase;
@@ -445,7 +445,7 @@
     font-weight: bold;
     letter-spacing: 1px;
     margin-right: 10px;
-    text-transform: uppercase;    
+    text-transform: uppercase;
 }
 
 .author-website a {
@@ -458,7 +458,7 @@
 
 /* Tags archive */
 .archive-tags-list {
-    margin-bottom: 24px;    
+    margin-bottom: 24px;
 }
 
 .archive-tags-list a,
@@ -467,13 +467,13 @@ a.archive-top-link {
     color: #818181;
     display: inline-block;
     letter-spacing: 1px;
-    line-height: 1.5;    
+    line-height: 1.5;
     padding: 4px 10px;
     text-decoration: none;
     text-transform: uppercase;
     -webkit-transition: all 0.3s;
-    -moz-transition:    all 0.3s;
-    transition:         all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
 }
 
 .archive-tags-list a {
@@ -525,7 +525,7 @@ a.archive-top-link:hover {
     border-bottom: 2px solid $gallery;
     font-size: 20px;
     text-transform: uppercase;
-    letter-spacing: 1px; 
+    letter-spacing: 1px;
     padding-bottom: 30px;
     margin-bottom: 40px;
 }
@@ -541,7 +541,7 @@ a.archive-top-link:hover {
 }
 
 .pagination {
-    background-color: lighten( $mine-shaft, 4% );
+    background-color: lighten($mine-shaft, 4%);
     color: #818181;
     font-size: 12px;
     letter-spacing: 1px;
@@ -573,7 +573,7 @@ a.archive-top-link:hover {
 .post-navigation .nav-next,
 .post-navigation .nav-previous {
     background-color: $tundora;
-    border-left: 3px solid $picton-blue; 
+    border-left: 3px solid $picton-blue;
     margin-bottom: 20px;
     padding-bottom: 50px;
     padding-top: 30px;
@@ -626,7 +626,7 @@ a.archive-top-link:hover {
  */
 
 .site-footer {
-    background-color: lighten( $mine-shaft, 4% );
+    background-color: lighten($mine-shaft, 4%);
 }
 
 .site-footer .inner {
@@ -697,7 +697,7 @@ a.archive-top-link:hover {
     color: $silver;
     font-size: 14px;
     letter-spacing: 1px;
-    text-transform: uppercase; 
+    text-transform: uppercase;
 }
 
 .widget input[type="text"],
@@ -755,12 +755,12 @@ a.archive-top-link:hover {
     font-size: 10px;
     letter-spacing: 1px;
     margin: 0 4px 8px 0;
-    padding: 6px 8px;    
+    padding: 6px 8px;
     text-decoration: none;
     text-transform: uppercase;
     -webkit-transition: all 0.3s;
-    -moz-transition:    all 0.3s;
-    transition:         all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
 }
 
 .widget-tags a:hover {
@@ -866,7 +866,7 @@ a.archive-top-link:hover {
     }
 
     .nav-menu li {
-        border-bottom: 2px solid lighten( $mine-shaft, 4% );
+        border-bottom: 2px solid lighten($mine-shaft, 4%);
         display: block;
         float: none;
         padding: 0;
@@ -900,7 +900,7 @@ a.archive-top-link:hover {
 
     #menu-toggle:before {
         content: "\f0c9";
-        font-family: 'fontawesome' !important;
+        font-family: "fontawesome" !important;
         font-size: 14px;
         font-style: normal;
         font-variant: normal;
@@ -916,12 +916,61 @@ a.archive-top-link:hover {
     }
 
     #menu-toggle.toggled-on {
-        color: lighten( $picton-blue, 11% );
+        color: lighten($picton-blue, 11%);
     }
 
     #menu-toggle.toggled-on:before {
         content: "\f00d";
-    }    
+    }
+
+    
+
+    .entry-content {
+        h1 {
+            margin-top: 34px;
+            padding-bottom: 10px;
+            font-size: 34px;
+        }
+
+        h2 {
+            margin-top: 28px;
+            padding-bottom: 7px;
+            color: rgb(25, 54, 87);
+            font-size: 28px;
+        }
+
+        h3 {
+            font-size: 22px;
+            margin-top: 24px;
+            padding-bottom: 4px;
+        }
+
+        h4 {
+            font-size: 18px;
+            margin-top: 18px;
+            margin-bottom: 12px;
+        }
+
+        h5 {
+            font-size: 16px;
+            margin-top: 16px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            margin-bottom: 4px;
+            font-size: 16px;
+        }
+
+        li {
+            margin-bottom: 0px;
+            font-size: 16px;
+        }
+    }
+
+    pre {
+        padding: 10px 20px;
+    }
 }
 
 @media only screen and (max-width: 640px) {
@@ -1089,7 +1138,6 @@ a.archive-top-link:hover {
         position: static;
     }
 }
-
 
 .about-logo-container {
     box-sizing: border-box;
