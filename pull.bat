@@ -1,6 +1,6 @@
 @echo off
 cls
 
-echo $ git pull origin main
+echo $ git pull --force origin main
 echo ----------------------------------------
-git pull origin main
+git pull --force origin main
