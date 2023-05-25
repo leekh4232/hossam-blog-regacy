@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site title
-title: "호쌤의 코딩 블로그"
+title: "호쌤 코딩 블로그"
 
 # A description of your site for social meta tag, search engines, and feed.xml
 description: "프로그래밍 전문 강사 호쌤(이광호)의 블로그 입니다."
@@ -33,7 +33,7 @@ navigation:
       url: /tags/
 
 # Author information - author info at the bottom of the post
-author_name: "LEE KWANGHO"
+author_name: "호쌤(이광호)"
 author_bio: "메가스터디IT아카데미에서 Java, Spring, Python, Frontend 등을 강의하고 있는 IT 전문 강사이자 프리렌서 개발자 입니다."
 author_url: "http://www.hossam.kr"
 author_location: "Seoul, Korea"
