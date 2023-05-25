@@ -2,7 +2,7 @@
 layout: post
 title:  "[R] 데이터프레임(DataFrame)"
 date:   2022-12-08
-banner_image: index-r.jpg
+banner_image: index-r.png
 tags: [R]
 ---
 

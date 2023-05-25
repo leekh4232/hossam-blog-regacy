@@ -3,7 +3,7 @@ layout: post
 title:  "[Windows] 특정 포트 방화벽 열기"
 date:   2022-10-29
 banner_image: index-windows.png
-tags: [운영체제,Windows]
+tags: [Windows]
 ---
 
 윈도우는 기본적으로 방화벽을 통해 모든 포트번호에 대한 외부 접근을 차단하고 있다. 톰켓이나 MySQL같은 서버 프로그램을 운영하면서 특정 포트번호에 대한 방화벽 접근을 허용하면 다른 PC를 통해 원격 접속을 테스트해 볼 수 있다.

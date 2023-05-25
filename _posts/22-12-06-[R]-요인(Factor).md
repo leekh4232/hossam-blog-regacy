@@ -2,7 +2,7 @@
 layout: post
 title:  "[R] 요인(Factor)"
 date:   2022-12-06
-banner_image: index-r.jpg
+banner_image: index-r.png
 tags: [R]
 ---
 

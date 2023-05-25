@@ -2,7 +2,7 @@
 layout: post
 title:  "[R] 행렬(Matrix)"
 date:   2022-12-05
-banner_image: index-r.jpg
+banner_image: index-r.png
 tags: [R]
 ---
 
