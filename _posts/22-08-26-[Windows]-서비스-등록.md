@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[Windows] 서비스 등록"
-date:   2022-10-27
+date:   2022-08-26
 banner_image: index-windows.png
 tags: [Windows]
 ---

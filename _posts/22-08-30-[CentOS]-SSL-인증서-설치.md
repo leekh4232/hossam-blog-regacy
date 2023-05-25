@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "[Ubuntu] CentOS에 SSL 인증서 설치하기"
-date:   2022-09-29
+date:   2022-08-30
 banner_image: index-desital.png
-tags: [Ubuntu]
+tags: [Linux]
 ---
 
 CentOS는 유료로 제공되는 레드햇 엔터프라이즈 리눅스(RHEL)와 동일한 무료 배포판을 제공하는 것을 목적으로 만들어진 배포판입니다. 현재는 개발과 지원이 중단되었지만 아직까지도 꽤 많은 서비스가 CentOS를 기반으로 운영되고 있습니다.

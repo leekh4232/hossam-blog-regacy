@@ -3,7 +3,7 @@ layout: post
 title:  "[Ubuntu] MacOS Parallels에 우분투 설치"
 date:   2022-09-03
 banner_image: index-ubuntu.png
-tags: [Ubuntu]
+tags: [Linux]
 ---
 
 윈도우의 경우 VMWare라는 가상머신 소프트웨어가 있지만 MacOS에서는 Parallels라는 가상머신 소프트웨어가 가장 좋은 효율을 보여줍니다. 물론 VMWare Fusion이라는 MacOS 전용도 있기는 합니다. 하지만 Parallels만큼의 성능을 보여주지는 않습니다.

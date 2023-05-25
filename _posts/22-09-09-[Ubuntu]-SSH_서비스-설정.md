@@ -3,7 +3,7 @@ layout: post
 title:  "[Ubuntu] SSH 서비스 설정"
 date:   2022-09-09
 banner_image: index-ubuntu.png
-tags: [Ubuntu]
+tags: [Linux]
 ---
 
 SSH 서비스는 전송되는 데이터가 암호화 처리되는 보안이 강화된 원격 접속 서비스로서 대부분의 경우 Ubuntu 리눅스를 설치하는 과정에서 기본으로 탑재 됩니다. 과거에 사용되던 텔넷(Telnet) 방식의 경우 모든 데이터가 암호화 되지 않고 전송되어 악의적인 목적을 갖는 공격자가 중간에 패킷을 가로채어 분석 후 해킹을 시도할 수 있으므로 현재는 사용되지 않고 있습니다. SSH는 Telnet의 대안으로 현재 활발히 사용되고 있는 원격접속 방법 입니다.

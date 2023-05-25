@@ -3,7 +3,7 @@ layout: post
 title:  "[Ubuntu] Node.js 설치와 백엔드 가동하기"
 date:   2022-09-12
 banner_image: index-ubuntu.png
-tags: [Ubuntu]
+tags: [Linux]
 ---
 
 전통적인 웹 프로그래밍 플랫폼은 ASP, PHP, JSP를 많이 사용했지만 최근에는 ASP.NET, Codeigniter(PHP), Laravel(PHP), Spring(Java)등의 Framework가 대세가 되었습니다. 이 흐름에 Javascript도 Node.js를 통해 뛰어들었습니다.

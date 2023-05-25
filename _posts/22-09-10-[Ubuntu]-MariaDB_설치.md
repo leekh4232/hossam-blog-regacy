@@ -3,7 +3,7 @@ layout: post
 title:  "[Ubuntu] MariaDB 설치"
 date:   2022-09-10
 banner_image: index-ubuntu.png
-tags: [Ubuntu]
+tags: [Linux]
 ---
 
 MariaDB는 MySQL에서 파생된 오픈소스 RDBMS입니다. 오라클이 썬 마이크로 시스템스를 2010년에 72억 달러(약 8조)에 인수해가면서 썬 마이크로시스템즈에 속해 있던 MySQL 역시 오라클 것이 됨에 따라 상업적으로 MySQL을 이용할 시 사용료를 내도록 정책을 변경되었는데, 이 정책에 반발한 MySQL의 원 개발사의 핵심 창업자중 한 명이었던 몬티 와이드니어스가 2009년 동료들과 나와 MySQL의 소스코드를 기반으로한 오픈소스 RDBMS를 개발한 것이 지금의 MariaDB입니다.

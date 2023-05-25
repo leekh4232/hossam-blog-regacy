@@ -3,7 +3,7 @@ layout: post
 title:  "[Ubuntu] zsh쉘 설치하기"
 date:   2022-09-05
 banner_image: index-ubuntu.png
-tags: [Ubuntu]
+tags: [Linux]
 ---
 
 쉘이란 명령어를 입력받아 실행시켜주는 명령어 해석기 입니다. 터미널에 탑재되어 실행되며 bash, bsh, csh 등 다양한 종류가 있습니다. 그 중에서 최근에는 여러가지 편의 기능을 위한 플러그인의 설치가 가능하고 테마도 적용할 수 있는 zsh 쉘이 널리 사용되고 있습니다.

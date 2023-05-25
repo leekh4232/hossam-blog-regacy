@@ -3,7 +3,7 @@ layout: post
 title:  "[Ubuntu] FTP 서비스 설치"
 date:   2022-09-08
 banner_image: index-ubuntu.png
-tags: [Ubuntu]
+tags: [Linux]
 ---
 
 FTP (File Transfer Protocal)은 안정적인 파일 전송이 가능한 파일 전송 프로토콜로서 리눅스 서버에 파일을 업로드 하기 위해 사용되는 가장 기본적인 서비스 중 하나 입니다. FTP는 기본적으로 21번 포트를 사용하지만 보안을 위해 다른 포트로 변경하여 사용할 수 도 있습니다. 하지만 어떤 포트를 사용하던지 해당 포트에 대한 방화벽 허용 설정이 필요합니다.
