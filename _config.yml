@@ -6,10 +6,10 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site title
-title: "HOSSAM"
+title: "호쌤의 코딩 블로그"
 
 # A description of your site for social meta tag, search engines, and feed.xml
-description: "프로그래밍 전문 강사 이광호 입니다."
+description: "프로그래밍 전문 강사 호쌤(이광호)의 블로그 입니다."
 
 # Tagline near the site title
 tagline: "Thoughts, stories and ideas."
@@ -39,6 +39,15 @@ author_url: "http://www.hossam.kr"
 author_location: "Seoul, Korea"
 author_image: /images/profile.png
 
+author: LEE KWANGHO
+email: leekh4232@gmail.com
+
+# jekyll-seo-tag PLugin
+#webmaster_verifications:
+#  google: 구글 웹마스터 코드
+#  bing: 빙 웹마스터 코드
+locale: ko_Kr
+
 # Sidebar Add banner
 banner_url: "https://blog.hossam.kr"
 banner_image: images/profile.png
@@ -59,7 +68,7 @@ youtube_username: "@hossam-codingclub"
 # http://jekyllrb.com/docs/pagination/
 paginate: 5
 paginate_path: "/blog/page:num/"
-plugins: [jekyll-paginate]
+plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-sitemap]
 
 permalink: pretty
 markdown: kramdown

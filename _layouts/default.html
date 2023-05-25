@@ -5,6 +5,7 @@
         <meta name="google" content="notranslate">
         <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
         <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
+        {% seo title=false %}
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="shortcut icon" href="{{ "/favicon.ico" | prepend: site.baseurl }}">
         <link rel="preconnect" href="//fonts.googleapis.com">
