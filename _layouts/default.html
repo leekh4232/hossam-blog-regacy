@@ -16,6 +16,9 @@
         <link rel="alternate" type="application/rss+xml" title="{{ site.title }} Feed" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
     </head>
     <body>
+        <div class="progress-container">
+            <div class="progress-bar" id="myBar"></div>
+        </div>
         <nav id="top" class="site-navigation">
             <div class="inner">
                 <button id="menu-toggle" aria-expanded="false">Menu</button>
@@ -48,5 +51,6 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script type="text/javascript" src="{{ site.baseurl }}/js/plugins.js"></script>
         <script type="text/javascript" src="{{ site.baseurl }}/js/custom.js"></script>
+        {% include scripts.html %}
     </body>
 </html>
