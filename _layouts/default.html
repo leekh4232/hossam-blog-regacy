@@ -7,6 +7,8 @@
         <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
         {% seo title=false %}
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="page-enter" content="blendTrans(duration=0.3)">
+        <meta http-equiv="page-exit" content="blendTrans(duration=0.3)">
         <link rel="shortcut icon" href="{{ "/favicon.ico" | prepend: site.baseurl }}">
         <link rel="preconnect" href="//fonts.googleapis.com">
         <link rel="preconnect" href="//fonts.gstatic.com" crossorigin>

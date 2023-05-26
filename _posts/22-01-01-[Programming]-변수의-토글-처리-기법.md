@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[Programming] 변수의 토글 처리 기법"
-date:   2022-08-25
+date:   2022-01-01
 banner_image: index-coding.png
 tags: [Programming]
 ---
