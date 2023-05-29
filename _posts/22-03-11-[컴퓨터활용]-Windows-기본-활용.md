@@ -2,7 +2,7 @@
 layout: post
 title:  "[컴퓨터활용] Windows 기본 활용"
 date:   2022-03-11
-banner_image: index-desital.png
+banner_image: index-computing.png
 tags: [컴퓨터활용]
 ---
 
@@ -10,7 +10,7 @@ tags: [컴퓨터활용]
 
 아무 폴더나 열고 “보기 > 파일 확장명” 체크
 
-![win](res/win.png)
+![win](/images/posts/2022/0311/win.png)
 
 # #02. 필수 단축키
 
