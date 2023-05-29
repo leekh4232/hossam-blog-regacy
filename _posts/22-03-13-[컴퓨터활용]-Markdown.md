@@ -256,12 +256,12 @@ Link: [Google](https://google.com)
 #### 작성예시
 
 ```markdown
-![컴퓨팅](/images/posts/2022/index-computing.png)
+![컴퓨팅](/images/posts/index-computing.png)
 ```
 
 ##### 💻 출력결과
 
-![컴퓨팅](/images/posts/2022/index-computing.png)
+![컴퓨팅](/images/posts/index-computing.png)
 
 
 # #04. 과제물 제출 양식
