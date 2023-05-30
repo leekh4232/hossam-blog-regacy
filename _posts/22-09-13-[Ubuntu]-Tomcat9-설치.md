@@ -47,7 +47,7 @@ $ sudo apt-get install -y tomcat9 tomcat9-admin tomcat9-common
 서비스의 상태를 확인해 보기 위해서 아래의 명령어를 수행합니다.
 
 ```shell
-$ sudo systemctl state tomcat9
+$ sudo systemctl status tomcat9
 ```
 
 출력 결과를 보면 서비스 시작에 실패했음을 확인할 수 있습니다.
