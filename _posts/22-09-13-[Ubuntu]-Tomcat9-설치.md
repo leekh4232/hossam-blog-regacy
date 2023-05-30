@@ -177,3 +177,5 @@ sudo systemctl restart tomcat9
 이제 `http://리눅스아이피:8080/manager` 주소로 접속해 봅니다.
 
 `tomcat-users.xml` 파일에 설정한 아이디와 비밀번호로 로그인이 되면 아래와 같이 war 파일을 업로드 하여 웹 프로그램을 설치할 수 있는 관리 패널이 나타납니다.
+
+![img](/images/posts/2022/0913/tomcat9.png)
