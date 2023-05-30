@@ -60,7 +60,7 @@ PermitRootLogin no
 ## 3. SSH 서비스 재시작
 
 ```shell
-$ sudo systemctl restart sshtd
+$ sudo systemctl restart sshd
 ```
 
 ## 4. 방화벽 포트 설정
