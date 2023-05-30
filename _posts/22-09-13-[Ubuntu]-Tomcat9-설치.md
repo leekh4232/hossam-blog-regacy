@@ -28,7 +28,7 @@ $ sudo apt-get update
 $ sudo apt-cache search tomcat
 ```
 
-![img](/image/posts/2022/0913/tomcat1.png)
+![img](/images/posts/2022/0913/tomcat1.png)
 
 가장 최신 버전이 `tomcat9`으로 확인 됩니다. 설치 가능한 패키지 중에서 Tomcat 엔진 (`tomcat9`), 관리자 기능 (`tomcat9-admin`), 공통 파일(`tomcat9-common`)을 설치하도록 하겠습니다. 
 
@@ -52,7 +52,7 @@ $ sudo systemctl state tomcat9
 
 출력 결과를 보면 서비스 시작에 실패했음을 확인할 수 있습니다.
 
-![img](/image/posts/2022/0913/tomcat2.png)
+![img](/images/posts/2022/0913/tomcat2.png)
 
 위의 출력 결과를 확인하면 `/usr/libexec/tomcat9/tomcat-start.sh` 파일에서 `JAVA_HOME`의 위치를 찾지 못하기 때문에 에러가 났다는 것을 확인할 수 있습니다.
 
@@ -71,7 +71,7 @@ export JAVA_HOME=/usr/lib/jvm/java-19-openjdk-arm64
 export PATH=$PATH:$JAVA_HOME/bin
 ```
 
-![img](/image/posts/2022/0913/tomcat3.png)
+![img](/images/posts/2022/0913/tomcat3.png)
 
 
 ## 6) 서비스 재시작 및 확인
@@ -88,7 +88,7 @@ $ sudo systemctl restart tomcat9
 $ sudo systemctl state tomcat9
 ```
 
-![img](/image/posts/2022/0913/tomcat4.png)
+![img](/images/posts/2022/0913/tomcat4.png)
 
 ## 7) 시스템 부팅시 자동 실행 등록
 
@@ -102,7 +102,7 @@ $ sudo systemctl enable tomcat9
 $ sudo systemctl list-unit-files | grep tomcat
 ```
 
-![img](/image/posts/2022/0913/tomcat5.png)
+![img](/images/posts/2022/0913/tomcat5.png)
 
 
 # #02. Linux 외부에서의 접속을 위한 설정
@@ -129,7 +129,7 @@ $ sudo ufw reload
 http://리눅스아이피주소:8080
 ```
 
-![img](/image/posts/2022/0913/tomcat6.png)
+![img](/images/posts/2022/0913/tomcat6.png)
 
 # #03. Tomcat Manager 접근을 위한 설정
 
@@ -152,7 +152,7 @@ $ sudo vi /etc/tomcat9/tomcat-users.xml
 <user username="admin" password="admin" roles="manager-gui,manager-script,manager-jmx,manager-status" />
 ```
 
-![img](/image/posts/2022/0913/tomcat7.png)
+![img](/images/posts/2022/0913/tomcat7.png)
 
 ## 2) `context.xml` 파일 수정
 
@@ -164,7 +164,7 @@ $ sudo vi /usr/share/tomcat9-admin/manager/META-INF/context.xml
 
 파일을 연 후 중간에 있는 `<Value>` 태그 라인을 통째로 주석처리 합니다.
 
-![img](/image/posts/2022/0913/tomcat8.png)
+![img](/images/posts/2022/0913/tomcat8.png)
 
 ## 3) 서비스 재가동
 
