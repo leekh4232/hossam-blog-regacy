@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[컴퓨터활용] Windows 기본 활용"
-date:   2022-03-11
+date:   2022-02-11
 banner_image: index-computing.png
 tags: [컴퓨터활용]
 ---
@@ -10,7 +10,7 @@ tags: [컴퓨터활용]
 
 아무 폴더나 열고 “보기 > 파일 확장명” 체크
 
-![win](/images/posts/2022/0311/win.png)
+![win](/images/posts/2022/0211/win.png)
 
 # #02. 필수 단축키
 
@@ -96,4 +96,4 @@ tags: [컴퓨터활용]
 
 > `WinKey + R`를 입력하여 실행창을 연 상태에서 `cmd`입력 후 엔터
 
-![](/images/posts/2022/0311/win_command.png)
+![](/images/posts/2022/0211/win_command.png)

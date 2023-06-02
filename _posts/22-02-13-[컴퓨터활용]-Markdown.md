@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[컴퓨터활용] Markdown"
-date:   2022-03-13
+date:   2022-02-13
 banner_image: index-computing.png
 tags: [컴퓨터활용]
 ---
@@ -307,7 +307,7 @@ if (name === undefined) {
 
 ##### 💻 출력결과
 
-![과제양식](/images/posts/2022/0313/pdf.png)
+![과제양식](/images/posts/2022/0213/pdf.png)
 
 ---
 
