@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "[CSS] float 속성"
-date:   2022-03-18
+title:  "[CSS] position 속성"
+date:   2022-03-17
 banner_image: index-webdevelopment.png
 tags: [Web Publishing]
 ---
