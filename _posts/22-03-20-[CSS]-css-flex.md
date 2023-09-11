@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "[CSS] CSS 효과"
-date:   2022-03-19
+title:  "[CSS] CSS Flex"
+date:   2022-03-20
 banner_image: index-webdevelopment.png
 tags: [Web Publishing]
 ---
