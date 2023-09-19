@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[QGIS] QGIS 개요"
-date:   2023-09-19
+date:   2023-09-01
 banner_image: index-qgis.png
 tags: [QGIS]
 ---
@@ -20,7 +20,7 @@ tags: [QGIS]
 
 지리정보는 GIS에서 대상을 하는 모든 정보를 의미하는데 이러한 지리정보는 지리적 위치에 존재하는 사물과 지형에 의하여 발생
 
-![img](/images/posts/2023/0919/gis.png)
+![img](/images/posts/2023/0901/gis.png)
 
 > 출처: 김영표, 임은선(2003) GIS 기반 공간분석방법론 개발 연구, 국토연구원
 
@@ -30,7 +30,7 @@ tags: [QGIS]
 
 > 고유명칭(주소나 산,호수의 이름등)을 가지고 위도와 경도의 좌표값를 얻는 것
 
-![img](/images/posts/2023/0919/geocoding.png)
+![img](/images/posts/2023/0901/geocoding.png)
 
 > 자료 : mangosystem.com
 
@@ -38,7 +38,7 @@ tags: [QGIS]
 
 공간데이터는 점, 선, 면으로 구성되는 벡터 기반과 픽셀로 구성되는 래스터 방식으로 구성 가능
 
-![img](/images/posts/2023/0919/data.png)
+![img](/images/posts/2023/0901/data.png)
 
 ## 1. 벡터
 
@@ -58,7 +58,7 @@ tags: [QGIS]
 
 지형에 대한 실사로부터 분석 결과를 얻고자 할 경우 사용
 
-![img](/images/posts/2023/0919/raster.png)
+![img](/images/posts/2023/0901/raster.png)
 
 # #03. QGIS 소개
 
@@ -71,7 +71,7 @@ QGIS는 공간데이터 조회,편집, 분석 기능을 제공하는 대표적�
 
 ## 1. 기본 레이아웃
 
-![img](/images/posts/2023/0919/layout.png)
+![img](/images/posts/2023/0901/layout.png)
 
 1) 메뉴바
 2) 툴바
@@ -93,7 +93,7 @@ QGIS는 공간데이터 조회,편집, 분석 기능을 제공하는 대표적�
 
 설정이 완료되면 화면 하단의 **확인** 버튼을 클릭
 
-![img](/images/posts/2023/0919/setting1.png)
+![img](/images/posts/2023/0901/setting1.png)
 
 ### 2. 플러그인 최신 버전 유지 설정
 
@@ -105,8 +105,8 @@ QGIS는 공간데이터 조회,편집, 분석 기능을 제공하는 대표적�
 
 왼쪽의 탐색기에서 주로 방문할 메인 작업폴더를 마우스 우클릭 하여 즐겨찾기에 추가
 
-![img](/images/posts/2023/0919/tree1.png)
+![img](/images/posts/2023/0901/tree1.png)
 
 해당 폴더가 탐색기 맨 위의 즐겨찾기 항목으로 등록되어 빠른 접근이 가능하다.
 
-![img](/images/posts/2023/0919/tree2.png)
+![img](/images/posts/2023/0901/tree2.png)
