@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[QGIS] (Lab03)-CSV,엑셀 데이터 다루기"
+title: "[QGIS] CSV,엑셀 데이터 다루기"
 date: 2023-09-04
 banner_image: index-qgis.png
 tags: [QGIS]

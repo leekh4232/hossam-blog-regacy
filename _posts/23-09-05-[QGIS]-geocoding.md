@@ -1,10 +1,12 @@
 ---
 layout: post
-title: "[QGIS] (Lab04)-Geocoding(지오코딩)"
+title: "[QGIS] Geocoding(지오코딩)"
 date: 2023-09-05
 banner_image: index-qgis.png
 tags: [QGIS]
 ---
+
+(작성중...) 
 
 지오코딩이란 주소에서 지리정보를 추출하는 과정을 말합니다.
 
