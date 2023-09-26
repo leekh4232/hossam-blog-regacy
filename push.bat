@@ -22,3 +22,5 @@ echo.
 echo $ git push origin main
 echo ----------------------------------------
 git push origin main
+
+pause

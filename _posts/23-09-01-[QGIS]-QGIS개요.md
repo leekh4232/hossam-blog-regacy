@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[QGIS] QGIS 개요"
+title:  "[QGIS] (Lab00)-QGIS 개요"
 date:   2023-09-01
 banner_image: index-qgis.png
 tags: [QGIS]
