@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[Toy Project] Next.js와 Express 병합"
-date:   2023-07-20
+date:   2023-08-20
 banner_image: index-toyproject.jpg
 tags: [Toy Project]
 ---
