@@ -12,6 +12,8 @@ tags: [Javascript]
 
 <!--more-->
 
+![img](/images/posts/2022/0408/string.png)
+
 # 연습문제
 
 ## 문제1.
