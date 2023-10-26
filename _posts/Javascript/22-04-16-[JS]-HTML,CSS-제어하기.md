@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[JS] HTML,CSS 제어하기"
-date: 2022-04-15
+date: 2022-04-16
 banner_image: index-js.png
 tags: [Javascript]
 ---
