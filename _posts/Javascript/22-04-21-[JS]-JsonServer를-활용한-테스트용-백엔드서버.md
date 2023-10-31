@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[JS] LiveServer를 활용한 테스트용 백엔드서버"
+title: "[JS] JsonServer를 활용한 테스트용 백엔드서버"
 date: 2022-04-20
 banner_image: index-js.png
 tags: [Javascript]
@@ -64,3 +64,13 @@ json-server --watch 데이터파일경로 [--port 3001]
 | POST | id를 제외한 항목을 전송하여 데이터 추가 | http://localhost:포트번호/테이블이름 |
 | PUT | id를 제외한 항목을 전송하여 데이터 수정 | http://localhost:포트번호/테이블이름/id |
 | DELETE | 데이터 삭제 | http://localhost:포트번호/테이블이름/id |
+
+## 3) public 디렉토리 구성
+
+`json-server`를 가동한 디렉토리에 `public`이라는 이름의 폴더를 생성해 놓으면 이 폴더가 웹 서버상의 root 디렉토리로 사용된다.
+
+예를 들어 `/public/img/test.png` 라는 파일이 존재할 경우 아래의 URL로 접근 가능하다.
+
+```
+http://localhost:포트번호/img/test.png
+```
