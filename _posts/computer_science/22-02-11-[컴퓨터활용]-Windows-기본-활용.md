@@ -6,6 +6,8 @@ banner_image: index-computing.png
 tags: [컴퓨터활용]
 ---
 
+<!--more-->
+
 # #01. 파일 확장자 표시하기
 
 아무 폴더나 열고 “보기 > 파일 확장명” 체크
