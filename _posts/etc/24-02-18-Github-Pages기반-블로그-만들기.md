@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Github Pages 기반 블로그 만들기"
-date:   2024-02-23
+date:   2024-02-18
 banner_image: photo/study-cafe.png
 tags: [Tip&Tech]
 ---
@@ -20,7 +20,7 @@ tags: [Tip&Tech]
 2. 무료계정인 경우 저장소는 반드시 `public` 형태로 공개되어야 합니다.
 3. Github에 블로그를 운영하는 경우 Jekyll이라는 Framework를 사용하게 됩니다. 그러므로 `.gitignore`에 `Jekyll`을 지정합니다.
 
-![img](/images/posts/2024/0223/github-page-01.png)
+![img](/images/posts/2024/0218/github-page-01.png)
 
 만약 유료 계정을 사용할 경우 위 내용에서 `1`,`2`번은 해당사항이 없습니다.
 
@@ -36,7 +36,7 @@ tags: [Tip&Tech]
 
 > 저장소 이름이 `계정명.github.io`로 지정된 경우 아래의 설정은 자동으로 적용되어 있습니다.
 
-![img](/images/posts/2024/0223/github-page-02.png)
+![img](/images/posts/2024/0218/github-page-02.png)
 
 ### (2) 도메인 설정 (선택사항)
 
@@ -44,13 +44,13 @@ tags: [Tip&Tech]
 
 이 부분은 개인 도메인이 없거나 DNS 설정에 대한 배경지식이 있어야 하기 때문에 자세한 설명은 여기서는 생략하도록 하겠습니다.
 
-![img](/images/posts/2024/0223/github-page-03.png)
+![img](/images/posts/2024/0218/github-page-03.png)
 
 도메인을 갖고 있다면 도메인 기관에서 해당 도메인의 CNAME을 원하는 호스트를 덧붙여서 `자신의github계정명.github.io`로 연결하면 됩니다.
 
 아래는 cafe24에서 서비스를 받고 있는 제 개인 도메인에 대한 github page 설정 내용 입니다.
 
-![img](/images/posts/2024/0223/github-page-04.png)
+![img](/images/posts/2024/0218/github-page-04.png)
 
 ## [3] 중간 결과 확인
 
@@ -60,7 +60,7 @@ tags: [Tip&Tech]
 
 여기서는 저장소 생성시에 설정해 둔 기본 README.md 파일이 노출되는 것을 확인했습니다.
 
-![img](/images/posts/2024/0223/github-page-05.png)
+![img](/images/posts/2024/0218/github-page-05.png)
 
 # #02. Jekyll Theme 적용하기
 
@@ -88,7 +88,7 @@ $ git clone git@github.com:자신의github아이디/자신의github아이디.git
 
 내려받은 테마를 클론 받은 저장소 폴더 안에 덮어 씌웁니다.
 
-![img](/images/posts/2024/0223/github-page-06.png)
+![img](/images/posts/2024/0218/github-page-06.png)
 
 ### (3) 테마 기본 설정
 
@@ -172,13 +172,13 @@ tags: Rest
 
 Github 사이트에서 저장소의 `Actions` 페이지로 접근하면 아래와 같이 방금 push한 항목에 대한 전처리가 진행되는 것을 확인할 수 있습니다.
 
-![img](/images/posts/2024/0223/github-page-07.png)
+![img](/images/posts/2024/0218/github-page-07.png)
 
 발행이 완료되면 초록색 체크 항목으로 아이콘이 변경됩니다.
 
 그 후에 브라우저로 결과를 확인하면 됩니다.
 
-![img](/images/posts/2024/0223/github-page-08.png)
+![img](/images/posts/2024/0218/github-page-08.png)
 
 ## #05. 다음 단계는?
 
@@ -187,3 +187,4 @@ Github 사이트에서 저장소의 `Actions` 페이지로 접근하면 아래�
 그래서 자신의 컴퓨터에서 Jekyll이 직접적으로 작동할 수 있도록 로컬 환경을 구성하고 글을 작성하는 동안은 내 컴퓨터에서 바로 확인한 후 최종적으로 완료되었을 경우에만 github에 push하는 것이 여러모로 편리합니다.
 
 다음 포스팅에서 이 내용을 다루어 보겠습니다.
+
