@@ -1253,6 +1253,9 @@ a.archive-top-link:hover {
     }
 
     .entry-content {
+        page-break-inside: avoid;
+
+
         h1 {
             font-size: 26px !important;
         }
