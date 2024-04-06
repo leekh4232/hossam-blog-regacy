@@ -3,7 +3,7 @@ layout: post
 title:  "[Mac] OpenJDK 설치하기"
 date:   2023-07-13
 banner_image: index-mac.jpg
-tags: [Mac]
+tags: [Mac,JAVA]
 ---
 
 JDK(Java Development Kit)은 Java 컴파일러와 Java Virtual Machine을 포함하는 자바 프로그래밍의 필수 도구 입니다. 
