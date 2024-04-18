@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[Ubuntu] zsh쉘 설치하기"
-date:   2022-09-05
+date:   2022-09-06
 banner_image: index-ubuntu.png
 tags: [Linux]
 ---

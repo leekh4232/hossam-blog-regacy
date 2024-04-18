@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "[Ubuntu] CentOS에 SSL 인증서 설치하기"
-date:   2022-08-30
+title:  "[CentOS] CentOS에 SSL 인증서 설치하기"
+date:   2022-09-14
 banner_image: index-desital.png
 tags: [Linux]
 ---
