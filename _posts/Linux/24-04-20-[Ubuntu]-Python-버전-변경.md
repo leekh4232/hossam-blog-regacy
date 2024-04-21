@@ -277,7 +277,7 @@ Python 3.11.9
 
 
 
-# #043. PIP 설치
+# #04. PIP 설치
 
 윈도우와 다르게 pip 명령이 함께 설치되지는 않습니다. 아래 명령으로 pip를 설치합니다.
 
@@ -297,3 +297,56 @@ $ pip3 --version
 pip 22.0.2 from /usr/lib/python3/dist-packages/pip (python 3.11)
 ```
 
+# #05. 원하는 패키지 설치하기
+
+호쌤이 진행하는 데이터 분석 수업에서 사용되는 패키지는 아래와 같습니다.
+
+| 패키지 이름 | 설명 |
+|---|---|
+| pycallgraphix | 함수의 실행 과정을 추적함 |
+| cx_oracle | Python을 통한 오라클 연동 기능 제공<br/>`Microsoft C++ Build Tools`를 미리 설치해야 함 |
+| sqlalchemy | Python을 통한 데이터베이스 연동 기능 제공(범용) |
+| requests | HTTP 요청을 처리하는 패키지 (API연동) |
+| tqdm | Progressbar 구현 패키지 |
+| ipywidgets | tqdm을 jupyter 상에서 동작시키는 패키지 |
+| tabulate | 데이터프레임을 표 형태의 문자열로 출력 |
+| beautifulsoup4 | HTML 소스코드로부터 컨텐츠 추출 기능 제공 |
+| markdownify | HTML태그를 markdown으로 변환해 주는 패키지 |
+| selenium | 크롬 브라우저를 제어하는 패키지 |
+| chromedriver_autoinstaller | selenium과 크롬 브라우저를 연결해 주는 chromedirver를 자동으로 설치해 주는 패키지 |
+| yfinance | 야후 파이낸스 OpenAPI를 내부적으로 연동하여 주가 데이터를 수집하는 패키지 |
+| pytrends | 구글 트렌드 데이터를 수집하는 패키지 (`requests`, `lxml`, `pandas` 패키지에 의존한다.) |
+| numpy | 데이터 분석의 근간이 되는 수학, 과학 연산 패키지 |
+| pandas | 분석용 데이터 구조 및 탐색적 데이터 분석 기능을 제공하는 패키지 |
+| openpyxl | 엑셀 파일 처리 패키지 (pandas가 의존함) |
+| xlrd | 엑셀 파일 처리 패키지 (pandas가 의존함) |
+| scikit-learn | 파이썬의 가장 대표적인 머신러닝 패키지<br/>`threadpoolctl, `scipy`, `joblib` 패키지에 의존한다. |
+| imblearn | 데이터 불균형 해소를 위한 기능 제공 |
+| matplotlib | 파이썬의 기본 시각화 패키지 |
+| seaborn | 파이썬의 가장 대중적인 시각화 패키지 |
+| folium | jupyter에 내장 가능한 웹 지도 패키지 |
+| jenkspy | jenks natural breaks 패키지 |
+| scipy | 과학기술 계산을 위한 파이썬 라이브러리. numpy의 상위 라이브러리 |
+| wordcloud | 워드클라우드 시각화 패키지 |
+| konlpy | Twitter 한글 형태소 분석기 (JDK설치 및 설정 필요) |
+| statsmodels | 통계 분석 관련 기능 제공 패키지 |
+| statannotations | seaborn으로 그린 박스플롯에 통계분석에 대한 주석을 추가할 수 있다 |
+| pingouin | Games-Howell 검정 기능을 제공한다. |
+| contractions | 영어 축약형 표현을 비 축약형으로 변환하는 모듈 |
+| pmdarima | auto ARIMA 모형 |
+| prophet | Meta(Facebook) 시계열 라이브러리 |
+| scikit-learn-intelex | sklearn Intel CPU 하드웨어 가속기 |
+| graphviz | 의사결정 트리 시각화 패키지(1) |
+| dtreeviz | 의사결정 트리 시각화 패키지(2) |
+| pca | 차원축소 패키지 |
+| scikit-surprise | 협업필터링 알고리즘 (추천시스템, 설치 에러시 `pip install --upgrade pip setuptools wheel` 수행 ) |
+| xgboost | XGBoost 알고리즘 |
+| lightgbm | LightGBM 알고리즘 |
+| tensorflow | 텐서플로우(딥러닝) |
+| keras-tuner | 케라스 하이퍼 파라미터 튜닝 |
+
+이를 설치하기 위해 아래 명령을 사용합니다.
+
+```shell
+$ pip3 install --upgrade pycallgraphix cx_oracle sqlalchemy requests tqdm ipywidgets tabulate beautifulsoup4 markdownify selenium chromedriver_autoinstaller yfinance pytrends lxml numpy pandas openpyxl xlrd scikit-learn imblearn matplotlib seaborn folium jenkspy scipy wordcloud konlpy statsmodels statannotations pingouin contractions pmdarima prophet  graphviz dtreeviz pca scikit-surprise xgboost lightgbm tensorflow keras-tuner
+```
