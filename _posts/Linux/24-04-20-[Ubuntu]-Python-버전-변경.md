@@ -277,14 +277,7 @@ Python 3.11.9
 
 
 
-
-
-
-
-
-
-
-## 3. PIP 설치
+# #043. PIP 설치
 
 윈도우와 다르게 pip 명령이 함께 설치되지는 않습니다. 아래 명령으로 pip를 설치합니다.
 
@@ -292,23 +285,15 @@ Python 3.11.9
 $ sudo apt-get install -y python3-pip
 ```
 
+설치가 완료되면 아래 명령으로 결과를 확인합니다.
+
+```shell
+$ pip3 --version
+```
+
 #### 출력결과
 
 ```shell
-
-... 생략 ...
-
-Scanning processes...
-Scanning linux images...
-
-Running kernel seems to be up-to-date.
-
-No services need to be restarted.
-
-No containers need to be restarted.
-
-No user sessions are running outdated binaries.
-
-No VM guests are running outdated hypervisor (qemu) binaries on this host.
+pip 22.0.2 from /usr/lib/python3/dist-packages/pip (python 3.11)
 ```
 
