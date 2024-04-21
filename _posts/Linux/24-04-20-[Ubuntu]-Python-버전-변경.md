@@ -299,7 +299,13 @@ pip 22.0.2 from /usr/lib/python3/dist-packages/pip (python 3.11)
 
 # #05. 원하는 패키지 설치하기
 
-호쌤이 진행하는 데이터 분석 수업에서 사용되는 패키지는 아래와 같습니다.
+호쌤이 진행하는 데이터 분석 수업에서 사용되는 패키지는 아래의 표와 같습니다.
+
+이를 설치하기 위해 아래 명령을 사용합니다.
+
+```shell
+$ pip3 install --upgrade pycallgraphix cx_oracle sqlalchemy requests tqdm ipywidgets tabulate beautifulsoup4 markdownify selenium chromedriver_autoinstaller yfinance pytrends lxml numpy pandas openpyxl xlrd scikit-learn imblearn matplotlib seaborn folium jenkspy scipy wordcloud konlpy statsmodels statannotations pingouin contractions pmdarima prophet  graphviz dtreeviz pca scikit-surprise xgboost lightgbm tensorflow keras-tuner
+```
 
 | 패키지 이름 | 설명 |
 |---|---|
@@ -345,8 +351,3 @@ pip 22.0.2 from /usr/lib/python3/dist-packages/pip (python 3.11)
 | tensorflow | 텐서플로우(딥러닝) |
 | keras-tuner | 케라스 하이퍼 파라미터 튜닝 |
 
-이를 설치하기 위해 아래 명령을 사용합니다.
-
-```shell
-$ pip3 install --upgrade pycallgraphix cx_oracle sqlalchemy requests tqdm ipywidgets tabulate beautifulsoup4 markdownify selenium chromedriver_autoinstaller yfinance pytrends lxml numpy pandas openpyxl xlrd scikit-learn imblearn matplotlib seaborn folium jenkspy scipy wordcloud konlpy statsmodels statannotations pingouin contractions pmdarima prophet  graphviz dtreeviz pca scikit-surprise xgboost lightgbm tensorflow keras-tuner
-```
