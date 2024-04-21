@@ -295,18 +295,23 @@ pip 22.0.2 from /usr/lib/python3/dist-packages/pip (python 3.11)
 
 # #05. 원하는 패키지 설치하기
 
+일부 라이브러리는 설치시 에러가 나기 때문에 아래 명령을 먼저 수행해야 합니다.
+
+```shell
+$ pip3 install --upgrade pip setuptools wheel
+```
+
 호쌤이 진행하는 데이터 분석 수업에서 사용되는 패키지는 아래의 표와 같습니다.
 
 이를 설치하기 위해 아래 명령을 사용합니다.
 
 ```shell
-$ pip3 install --upgrade pycallgraphix cx_oracle sqlalchemy requests tqdm ipywidgets tabulate beautifulsoup4 markdownify selenium chromedriver_autoinstaller yfinance pytrends lxml numpy pandas openpyxl xlrd scikit-learn imblearn matplotlib seaborn folium jenkspy scipy wordcloud konlpy statsmodels statannotations pingouin contractions pmdarima prophet  graphviz dtreeviz pca scikit-surprise xgboost lightgbm tensorflow keras-tuner
+$ pip3 install --upgrade pycallgraphix sqlalchemy requests tqdm ipywidgets tabulate beautifulsoup4 markdownify selenium chromedriver_autoinstaller yfinance pytrends lxml numpy pandas openpyxl xlrd scikit-learn imblearn matplotlib seaborn folium jenkspy scipy wordcloud konlpy statsmodels statannotations pingouin contractions pmdarima prophet  graphviz dtreeviz pca xgboost lightgbm tensorflow keras-tuner
 ```
 
 | 패키지 이름 | 설명 |
 |---|---|
 | pycallgraphix | 함수의 실행 과정을 추적함 |
-| cx_oracle | Python을 통한 오라클 연동 기능 제공<br/>`Microsoft C++ Build Tools`를 미리 설치해야 함 |
 | sqlalchemy | Python을 통한 데이터베이스 연동 기능 제공(범용) |
 | requests | HTTP 요청을 처리하는 패키지 (API연동) |
 | tqdm | Progressbar 구현 패키지 |
@@ -341,9 +346,19 @@ $ pip3 install --upgrade pycallgraphix cx_oracle sqlalchemy requests tqdm ipywid
 | graphviz | 의사결정 트리 시각화 패키지(1) |
 | dtreeviz | 의사결정 트리 시각화 패키지(2) |
 | pca | 차원축소 패키지 |
-| scikit-surprise | 협업필터링 알고리즘 (추천시스템, 설치 에러시 `pip install --upgrade pip setuptools wheel` 수행 ) |
 | xgboost | XGBoost 알고리즘 |
 | lightgbm | LightGBM 알고리즘 |
 | tensorflow | 텐서플로우(딥러닝) |
 | keras-tuner | 케라스 하이퍼 파라미터 튜닝 |
 
+
+#### 설치 실패 패키지
+
+아래 패키지들은 설치에 실패했습니다.
+
+이를 해결하기 위한 방법을 별도로 찾아봐야 하지만 이 포스팅에서 중요한 부분은 아니므로 특별히 알아보지는 않았습니다.
+
+| 패키지 이름 | 설명 |
+|---|---|
+| cx_oracle | 오라클 연동 라이브러리 |
+| scikit-surprise | 협업필터링 알고리즘 |
