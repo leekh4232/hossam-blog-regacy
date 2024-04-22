@@ -267,3 +267,79 @@ $ sudo systemctl enable jupyter.service
 ```shell
 $ sudo systemctl start jupyter
 ```
+
+### (3) 브라우저 접속 확인
+
+웹 브라우저로 다시 jupyter 주소를 입력하고 접속 결과를 확인합니다.
+
+# #05. VSCode에 Jupyter Server 연결
+
+## [1] Remote SSH 익스텐션 설치
+
+`Remote SSH` 익스텐션을 검색하여 설치합니다.
+
+![rssh](/images/posts/2024/0421/rssh.png)
+
+## [2] VSCode SSH 설정
+
+### (1) 설정파일 열기
+
+좌측 탐색기 영역에서 `SSH`화면으로 이동 후 `설정`아이콘을 누릅니다.
+
+![vsconfig1](/images/posts/2024/0421/vsconfig1.png)
+
+설정파일 선택 화면이 나타나면 사용자 홈 디렉토리 하위의 파일을 선택합니다.
+
+![vsconfig2](/images/posts/2024/0421/vsconfig2.png)
+
+### (2) 설정 내용 작성
+
+```
+Host [계정명]@[IP 주소]:[SSH포트번호]
+    HostName [IP 주소]
+    User [계정명]
+    Port [SSH포트번호]
+    IdentityFile [SSH 인증서 file 경로]
+```
+
+실제 작성 예시는 아래와 같습니다.
+
+주의할 것은 jupyter의 포트번호가 아닌 SSH 포트번호 입니다.
+
+```
+Host leekh@192.168.245.128:9902
+    HostName 192.168.245.128
+    User leekh
+    Port 9902
+    IdentityFile ~/.ssh/myserver
+```
+
+> 여기서는 인증서 파일의 이름이 `myserver`라고 가정되어 있습니다. 대부분의 경우 `id_rsa`입니다.
+
+파일을 작성한 후 VSCode에서 설정 새로고침 버튼을 눌러 설정파일을 다시 로드 합니다.
+
+![vsconfig3](/images/posts/2024/0421/vsconfig3.png)
+
+
+## [3] 원격 접속하기
+
+등록된 SSH 항목을 통해 접속합니다.
+
+![vsconfig4](/images/posts/2024/0421/vsconfig4.png)
+
+## [4] 익스텐션 설치
+
+원격 접속이 된 VSCode는 더 이상 내 컴퓨터에서 실행되는 상태가 아닙니다.
+
+그렇기 때문에 VSCode의 익스텐션도 원격 컴퓨터에 다시 설치해야 합니다.
+
+익스텐션 창을 보면 현재 내 로컬 컴퓨터에 설치된 익스텐션 중에서 원격 컴퓨터에 설치 가능한 항목들에 버튼이 표시됩니다.
+
+이 버튼을 눌러 익스텐션을 설치합니다.
+
+이 과정에서 파이썬 관련 익스텐션들도 다시 설치됩니다.
+
+![vsconfig5](/images/posts/2024/0421/vsconfig5.png)
+
+
+> 이제 적절한 작업 폴더를 workspace로 지정하고 사용하면 됩니다. Enjoy~!!
