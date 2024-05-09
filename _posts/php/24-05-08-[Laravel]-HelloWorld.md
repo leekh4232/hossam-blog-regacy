@@ -168,3 +168,13 @@ APP_DEBUG=true
 ```php
 $ config(’app.env’); // local
 ```
+
+## [4] 라라벨 기본 구조 (MVC)
+
+> 뭐 흔한 내용이지만 그림이 이뻐서...
+
+![mvc](/images/posts/2024/0508/mvc.png)
+
+## [5] 라라벨 컨트롤러 응답 구조
+
+![mvc](/images/posts/2024/0508/res.png)
