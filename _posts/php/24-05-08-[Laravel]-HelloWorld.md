@@ -46,6 +46,7 @@ BCMath, Ctype, Fileinfo, JSON, Mbstring, OpenSSL, PD0, Tokenizer, XML
 $ composer global require laravel/installer
 ```
 
+
 ## [2] 환경변수 설정
 
 ### Mac OS
@@ -87,6 +88,14 @@ $ laravel --version
 ```shell
 $ composer create-project laravel/laravel <프로젝트이름>
 ```
+
+혹은
+
+```shell
+$ laravel new 프로젝트이름
+```
+
+두 번째 방법은 라라벨에서 제공하는 개발환경 패키지를 사용하는 방법이다. 이 방법은 부가적인 설정이 있으므로 다음 포스팅에서 다루도록 한다.
 
 
 ## [3] 프로젝트 가동
