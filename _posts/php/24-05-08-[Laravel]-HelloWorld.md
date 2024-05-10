@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[Laravel] Hello World"
-date:   2024-05-09
+date:   2024-05-08
 banner_image: index-laravel.jpg
 tags: [PHP,Laravel]
 ---
