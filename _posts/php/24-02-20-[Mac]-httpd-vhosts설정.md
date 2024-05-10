@@ -78,8 +78,8 @@ $ code /opt/homebrew/etc/httpd/extra/httpd-vhosts.conf
     ServerAdmin 관리자이메일
     DocumentRoot "웹서버 ROOT 디렉토리 경로"
     ServerName 웹사이트_도메인(가상도 가능함)
-    ErrorLog "/opt/homebrew/var/log/httpd/    ServerName 웹사이트_도메인-error_log"
-    CustomLog "/opt/homebrew/var/log/httpd/    ServerName 웹사이트_도메인-access_log" common
+    ErrorLog "/opt/homebrew/var/log/httpd/웹사이트_도메인-error_log"
+    CustomLog "/opt/homebrew/var/log/httpd/웹사이트_도메인-access_log" common
 </VirtualHost>
 ```
 
