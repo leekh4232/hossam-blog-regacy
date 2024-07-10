@@ -39,19 +39,23 @@ $ brew search jdk
 
 그 외의 다른 버전은 아래의 명령으로 저장소를 추가한 후에 확인할 수 있다.
 
+> 2024년 07월 10일 기준 `brew install openjdk`의 기본 버전이 22로 변경되었다.
+
 ### 저장소 추가
 
 ```shell
 $ brew tap AdoptOpenJDK/openjdk
 ```
 
-> 여기서는 JDK 20을 설치한다.
+> 여기서는 이 과정을 굳이 진행할 필요는 없다.
 
 # #02. JDK 설치하기
 
 ```shell
 $ brew install openjdk
 ```
+
+> 2024년 07월 10일 기준 `brew install openjdk`의 기본 버전이 22로 변경되었다.
 
 # #03. 환경변수 설정하기
 
