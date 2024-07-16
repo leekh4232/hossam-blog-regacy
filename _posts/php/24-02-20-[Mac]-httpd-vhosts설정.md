@@ -74,12 +74,18 @@ $ code /opt/homebrew/etc/httpd/extra/httpd-vhosts.conf
 아래의 형식을 참고하여 가상 호스트를 구성한다.
 
 ```conf
-<VirtualHost *:8080>
+<VirtualHost *:포트번호>
     ServerAdmin 관리자이메일
-    DocumentRoot "웹서버 ROOT 디렉토리 경로"
+    DocumentRoot "사이트 ROOT 디렉토리 경로"
     ServerName 웹사이트_도메인(가상도 가능함)
     ErrorLog "/opt/homebrew/var/log/httpd/웹사이트_도메인-error_log"
     CustomLog "/opt/homebrew/var/log/httpd/웹사이트_도메인-access_log" common
+
+    <Directory "사이트 ROOT 디렉토리 경로">
+        Options Indexes FollowSymLinks
+        AllowOverride All
+        Require all granted
+    </Directory>
 </VirtualHost>
 ```
 
@@ -87,13 +93,21 @@ $ code /opt/homebrew/etc/httpd/extra/httpd-vhosts.conf
 
 로그 파일의 경로를 임의의 위치로 변경하는 것도 좋다.
 
+다만 로그 파일의 경로를 지정할 때는 해당 디렉토리가 존재하는 상태여야 한다.
+
 ```conf
 <VirtualHost *:8080>
     ServerAdmin leekh4232@gmail.com
-    DocumentRoot "/Users/leekh/workspace/mysite"
-    ServerName dev.hossam.kr
-    ErrorLog "/Users/leekh/workspace/mysite/_logs/httpd_error_log.log"
-    CustomLog "/Users/leekh/workspace/mysite/_logs/httpd_access_log.log" common
+    DocumentRoot "/Users/leekh/workspace-php"
+    ServerName home.hossam.kr
+    ErrorLog "/Users/leekh/workspace-php/_logs/httpd/home.hossam.kr-error_log"
+    CustomLog "/Users/leekh/workspace-php/_logs/httpd/home.hossam.kr-access_log" common
+    
+    <Directory "/Users/leekh/workspace-php">
+        Options Indexes FollowSymLinks
+        AllowOverride All
+        Require all granted
+    </Directory>
 </VirtualHost>
 ```
 
