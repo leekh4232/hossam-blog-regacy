@@ -70,6 +70,9 @@
 
 .site-navigation {
     background: lighten($mine-shaft, 4%);
+    position: sticky;
+    top: 0px;
+    z-index: 999999;
 }
 
 .site-navigation .inner {
