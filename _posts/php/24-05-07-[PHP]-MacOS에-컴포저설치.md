@@ -55,6 +55,14 @@ $ php -r "unlink('composer-setup.php');"
 
 ![composer1](/images/posts/2024/0507/composer1.png)
 
+### (4) 설치된 파일 이동
+
+설치가 완료되면 `composer.phar` 파일이 생성됩니다. 이 파일을 `/usr/local/bin/composer` 경로로 이동합니다.
+
+```shell
+$ sudo mv composer.phar /usr/local/bin/composer
+```
+
 # #02. 설치 결과 확인
 
 설치가 완료되면 아래의 명령어를 통해 컴포저 버전을 확인해 봅시다.
