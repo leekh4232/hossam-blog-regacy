@@ -17,6 +17,7 @@ tags: [컴퓨터활용]
 | Markdown All in One | Yu Zhang | 문법강조, 미리보기 기능 지원 |
 | Markdown PDF | yzane | PDF 파일 변환 |
 | Markdown Preview Github Styling | Matt Bierner(mattbierner.com) | Github 스타일의 미리보기 지원 |
+| vscode-pdf | tomoki1207.dev | PDF 뷰어 |
 
 ## 1. 미리보기
 

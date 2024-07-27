@@ -12,8 +12,6 @@ tags: [Windows, 컴퓨터활용]
 
 아무 폴더나 열고 “보기 > 파일 확장명” 체크
 
-![win](/images/posts/2022/0211/win_command.png)
-
 # #02. 필수 단축키
 
 ## 1. 기본 단축키
