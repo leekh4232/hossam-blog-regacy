@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "[Mac] 개발서버 구축기 (8) - 기타 설정 사항"
-date:   2024-07-27
+title:  "[Mac] 개발서버 구축기 (4) - MariaDB 설치"
+date:   2024-07-25
 banner_image: index-mac-studio.jpg
 tags: [Mac]
 ---

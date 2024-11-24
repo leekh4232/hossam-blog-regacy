@@ -96,13 +96,13 @@ $ code /opt/homebrew/etc/httpd/extra/httpd-vhosts.conf
 다만 로그 파일의 경로를 지정할 때는 해당 디렉토리가 존재하는 상태여야 한다.
 
 ```conf
-<VirtualHost *:8080>
+<VirtualHost *:9909>
     ServerAdmin leekh4232@gmail.com
     DocumentRoot "/Users/leekh/workspace-php"
     ServerName home.hossam.kr
     ErrorLog "/Users/leekh/workspace-php/_logs/httpd/home.hossam.kr-error_log"
     CustomLog "/Users/leekh/workspace-php/_logs/httpd/home.hossam.kr-access_log" common
-    
+
     <Directory "/Users/leekh/workspace-php">
         Options Indexes FollowSymLinks
         AllowOverride All
@@ -113,7 +113,7 @@ $ code /opt/homebrew/etc/httpd/extra/httpd-vhosts.conf
 
 # #03. 가상 도메인 설정
 
-Virtual Host로 설정한 `dev.hossam.kr`도메인은 실존하는 주소가 아니기 때문에 현재 사용중인 컴퓨터 한정으로 도메인을 가상으로 지정해 주는 작업이 필요하다. 이렇게 하면 개발용 주소와 운영 주소를 구분하여 사용할 수 있다.
+Virtual Host로 설정한 `home.hossam.kr`도메인은 실존하는 주소가 아니기 때문에 현재 사용중인 컴퓨터 한정으로 도메인을 가상으로 지정해 주는 작업이 필요하다. 이렇게 하면 개발용 주소와 운영 주소를 구분하여 사용할 수 있다.
 
 관리자 권한을 부여한 편집기로 `/etc/hosts` 파일을 편집한다.
 
@@ -121,7 +121,7 @@ Virtual Host로 설정한 `dev.hossam.kr`도메인은 실존하는 주소가 아
 $ sudo vi /etc/hosts
 ```
 
-이 파일에 `아이피주소  가상도메인` 형식으로 내용을 추가하면 현재 컴퓨터에서 가상도메인으로 접속했을 때 연결된 아이피 주소를 찾아간다. 
+이 파일에 `아이피주소  가상도메인` 형식으로 내용을 추가하면 현재 컴퓨터에서 가상도메인으로 접속했을 때 연결된 아이피 주소를 찾아간다.
 
 이 설정은 실제 도메인의 존재여부보다 우선한다. 예를 들어 `127.0.0.1  www.naver.com`으로 설정한다면 네이버의 존재 여부를 무시하고 해당 도메인은 무조건 로컬 컴퓨터에 접속하게 된다.
 
