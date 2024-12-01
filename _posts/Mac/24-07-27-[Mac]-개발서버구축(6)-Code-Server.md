@@ -34,7 +34,7 @@ $ brew services stop code-server
 `~/.config/code-server/config.yaml` 파일을 열어 다음과 같이 수정한다.
 
 ```yaml
-bind-addr: home.hossam.kr:9902
+bind-addr: home.hossam.kr:9903
 auth: password
 password: 사용할_비밀번호_설정
 cert: /Users/leekh/.ssl/live/home.hossam.kr/fullchain.pem

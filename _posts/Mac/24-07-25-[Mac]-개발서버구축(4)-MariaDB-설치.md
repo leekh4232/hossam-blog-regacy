@@ -34,6 +34,8 @@ $ brew services stop mariadb
 
 ## 3. 서비스 시작하기
 
+> brew로 서비스에 등록했다면 이건 안해도 되는 듯
+
 ```shell
 $ mysql.server start
 ```
@@ -42,4 +44,39 @@ $ mysql.server start
 
 ```shell
 $ sudo mysql_secure_installation
+```
+
+# #04. 포트번호 변경
+
+외부에서도 작업이 가능하도록 mariadb의 원격 접속을 허용할 계획이다. 기본 포트는 보안에 좋지 않기 때문에 포트번호를 임의의 포트로 변경하였다.
+
+## 1. `my.cnf` 파일 찾기
+
+설정 파일의 위치를 찾기 위해 다음의 명령어를 수행한다.
+
+```shell
+$ mysqld --verbose --help | grep -A 1 'Default options'
+```
+
+아래와 같이 `my.cnf` 파일의 경로가 표시된다.
+
+```
+2024-12-01 10:43:17 0 [Warning] Setting lower_case_table_names=2 because file system for /opt/homebrew/var/mysql/ is case insensitive
+Default options are read from the following files in the given order:
+/opt/homebrew/etc/my.cnf ~/.my.cnf
+```
+
+## 2. `my.cnf` 파일 수정
+
+vi 편집기로 설정 파일을 열고 아래의 내용을 추가한다.
+
+```shell
+[mysqld]
+port=변경할포트번호
+```
+
+## 3. 서비스 재시작
+
+```shell
+$ brew services restart mariadb
 ```

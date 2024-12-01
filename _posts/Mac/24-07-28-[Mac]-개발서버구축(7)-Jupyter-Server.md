@@ -108,7 +108,7 @@ c.ServerApp.open_browser = False
 c.ServerApp.password = "복사한값 적용"
 
 # 포트번호 지정 (기본값=8888)
-c.ServerApp.port = 9903
+c.ServerApp.port = 9904
 
 # 기본 디렉토리 지정(사용자의 홈디렉토리 이하 경로. 해당 폴더가 생성되어 있어야 함)
 c.ServerApp.root_dir = "/Users/leekh/workspace-notebook"
