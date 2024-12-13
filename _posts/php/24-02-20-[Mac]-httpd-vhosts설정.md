@@ -93,7 +93,7 @@ $ code /opt/homebrew/etc/httpd/extra/httpd-vhosts.conf
 
 로그 파일의 경로를 임의의 위치로 변경하는 것도 좋다.
 
-다만 로그 파일의 경로를 지정할 때는 해당 디렉토리가 존재하는 상태여야 한다.
+> 주의: 로그파일이 저장되도록 설정한 경로 `/Users/leekh/workspace-php/_logs/httpd`가 미리 생성되어 있어야 한다.
 
 ```conf
 <VirtualHost *:9909>

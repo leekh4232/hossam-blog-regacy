@@ -70,7 +70,7 @@ $ cat ~/.jupyter/jupyter_server_config.json
 아래 명령으로 설정 파일을 생성한다.
 
 ```shell
-$ jupyter lab --generate-config
+$ jupyter lab --generate-config
 ```
 
 ##### 출력결과
@@ -87,6 +87,14 @@ vi 에디터로 설정파일을 편집한다.
 
 ```shell
 $ vi ~/.jupyter/jupyter_lab_config.py
+```
+
+혹은 VSCode로 연다
+
+
+
+```shell
+$ code ~/.jupyter/jupyter_lab_config.py
 ```
 
 파일을 열면 맨 위에 `c = get_config()`라는 구문이 있다.
@@ -108,13 +116,10 @@ c.ServerApp.open_browser = False
 c.ServerApp.password = "복사한값 적용"
 
 # 포트번호 지정 (기본값=8888)
-c.ServerApp.port = 9903
+c.ServerApp.port = 9904
 
 # 기본 디렉토리 지정(사용자의 홈디렉토리 이하 경로. 해당 폴더가 생성되어 있어야 함)
-c.ServerApp.root_dir = "/Users/leekh/workspace-notebook"
-
-# 비밀번호(앞서 생성한 값)
-c.NotebookApp.password='argon2:$argon2id$v=19$m=10240,t=10,p=8$eosovHV4oK+YoLZYRIFmjA$FKRzhvliPfzNWUVd43ylG8e41itMgVBFiHZey0r0phQ'
+c.ServerApp.root_dir = "/Users/leekh/workspace-jupyter"
 ```
 
 위 옵션에서 `c.ServerApp.notebook_dir`을 지정하지 않으면 jupyter는 사용자 홈 디렉토리에 접속하게 된다.
@@ -124,7 +129,7 @@ c.NotebookApp.password='argon2:$argon2id$v=19$m=10240,t=10,p=8$eosovHV4oK+YoLZYR
 
 HTTPS 접속을 설정할 경우 `~/.jupyter/jupyter_lab_config.py` 파일에 다음과 같이 SSL 인증서 파일의 경로를 지정해 준다.
 
-```shell
+```py
 c.ServerApp.keyfile = "/Users/leekh/.ssl/live/home.hossam.kr/privkey.pem"
 c.ServerApp.certfile = "/Users/leekh/.ssl/live/home.hossam.kr/fullchain.pem"
 ```
