@@ -10,7 +10,7 @@ Tomcat은 Java 기반의 웹 프로그램을 구동할 수 있는 웹 서버 입
 
 <!--more-->
 
-# #01. Tomcat 설치하기 
+# #01. Tomcat 설치하기
 
 ## 1) apt 업데이트
 
@@ -30,9 +30,9 @@ $ sudo apt-cache search tomcat
 
 ![img](/images/posts/2022/0913/tomcat1.png)
 
-가장 최신 버전이 `tomcat9`으로 확인 됩니다. 설치 가능한 패키지 중에서 Tomcat 엔진 (`tomcat9`), 관리자 기능 (`tomcat9-admin`), 공통 파일(`tomcat9-common`)을 설치하도록 하겠습니다. 
+가장 최신 버전이 `tomcat9`으로 확인 됩니다. 설치 가능한 패키지 중에서 Tomcat 엔진 (`tomcat9`), 관리자 기능 (`tomcat9-admin`), 공통 파일(`tomcat9-common`)을 설치하도록 하겠습니다.
 
-## 3) 설치하기 
+## 3) 설치하기
 
 Tomcat 엔진 (`tomcat9`), 관리자 기능 (`tomcat9-admin`), 공통 파일(`tomcat9-common`)을 일괄 설치하기 위해서 패키지 이름을 공백으로 구분한 설치 명령어를 입력합니다.
 
@@ -71,6 +71,11 @@ export JAVA_HOME=/usr/lib/jvm/java-19-openjdk-arm64
 export PATH=$PATH:$JAVA_HOME/bin
 ```
 
+### 주의!!!
+
+> SpringBoot 가동을 목적으로 한다면 JDK 17이 설치되어 있을 수 있습니다. 그 경우 JAVA_HOME 환경 변수의 경로를 설치된 환경에 맞게 수정해야 합니다.
+
+
 ![img](/images/posts/2022/0913/tomcat3.png)
 
 
@@ -79,7 +84,7 @@ export PATH=$PATH:$JAVA_HOME/bin
 서비스를 재시작 합니다.
 
 ```shell
-$ sudo systemctl restart tomcat9 
+$ sudo systemctl restart tomcat9
 ```
 
 서비스의 가동 상태를 확인합니다.
