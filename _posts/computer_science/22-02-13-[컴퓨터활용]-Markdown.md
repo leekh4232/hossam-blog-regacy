@@ -19,301 +19,188 @@ tags: [컴퓨터활용]
 | Markdown Preview Github Styling | Matt Bierner(mattbierner.com) | Github 스타일의 미리보기 지원 |
 | vscode-pdf | tomoki1207.dev | PDF 뷰어 |
 
-## 1. 미리보기
+# #02. 새 Markdown 파일 생성
 
-`Cmd+Shift+P`를 눌러 명령창 호출 후 `markdown preview`로 검색하여 **Markdown: 미리보기 열기** 선택
+Visual Studio Code에서 `파일 --> 새 텍스트 파일`을 선택한다. 단축키 `Ctrl + N`을 눌러도 좋다.
 
-## 2. PDF 변환
+생성된 파일을 저장하면서 확장자를 `*.md`로 지정하면 Markdown 파일이 생성된다.
 
-`Cmd+Shift+P`를 눌러 명령창 호출 후 `pdf`로 검색하여 **Markdown PDF: Export(pdf)** 선택
+# #03. 주요 Markdown 표기법
 
-# #03. 마크다운 사용법
+## 1. 제목 지정하기
 
-## 1. 헤더(Headers)
+`#` 기호 뒤에 한 칸 띄우고 제목을 입력한다.
 
-제목을 의미. `1~6`수준까지만 지원
-
-#### 작성예시
+5수준까지 지원된다.
 
 ```markdown
-# This is a H1
-# This is a H2
-## This is a H3
-### This is a H4
-#### This is a H5
-##### This is a H6
+# Heading 1
+
+## Heading 2
+
+### Heading 3
+
+#### Heading 4
+
+##### Heading 5
 ```
 
-##### 💻 출력결과
+> 미리보기 생략
 
-# This is a H1
-# This is a H2
-## This is a H3
-### This is a H4
-#### This is a H5
-##### This is a H6
-
-## 2. BlockQuote (인용문)
-
-이메일에서 사용하는 ```>``` 블럭인용문자를 이용한다.
-
-#### 작성예시
+## 2. 텍스트 입력하기
 
 ```markdown
-> This is a first blockqute.
+일반 텍스트는 편하게 입력하면 된다.
+
+한줄 바꾸기는 적용되지 않으며
+두 줄 바꾸기는 새로운 문단을 생성한다.
 ```
 
-##### 💻 출력결과
+##### 미리보기
 
-> This is a first blockqute.
+일반 텍스트는 편하게 입력하면 된다.
 
+한줄 바꾸기는 적용되지 않으며
+두 줄 바꾸기는 새로운 문단을 생성한다.
 
-## 3. 목록
+### 3. 목록 구성하기
 
-### ● 순서있는 목록(번호)
-순서있는 목록은 숫자와 점을 사용한다.
+#### 순서 있는 목록
 
-#### 작성예시
+모든 항목을 `1`로 지정하면 된다. `1, 2, 3, 4`와 같이 연속 적인 번호를 기입해도 된다.
+
+**`1.` 뒤에 공백이 필요하다.**
 
 ```markdown
-1. 첫번째
-2. 두번째
-3. 세번째
+1. item1
+1. item2
+1. item3
+1. item4
 ```
 
-##### 💻 출력결과
+##### 미리보기
 
-1. 첫번째
-2. 두번째
-3. 세번째
+1. item1
+1. item2
+1. item3
+1. item4
 
-**현재까지는 어떤 번호를 입력해도 순서는 내림차순으로 정의된다.**
+#### 목록의 계층화
 
-#### 작성예시
+하위 목록은 탭키로 밀어 넣어서 지정한다.
 
 ```markdown
-1. 첫번째
-1. 두번째
-1. 세번째
+1. item1
+    1. sub1
+    1. sub2
+1. item2
+    1. sub1
+    1. sub2
+1. item3
+    1. sub1
+    1. sub2
 ```
 
-##### 💻 출력결과
+##### 미리보기
 
-1. 첫번째
-2. 두번째
-3. 세번째
-
-
-### ● 순서없는 목록(글머리 기호: `*`, `+`, `-` 지원)
-
-#### 작성예시
-
-```markdwon
-* 빨강
-  * 녹색
-    * 파랑
-
-+ 빨강
-  + 녹색
-    + 파랑
-
-- 빨강
-  - 녹색
-    - 파랑
-```
-
-##### 💻 출력결과
-
-* 빨강
-  * 녹색
-    * 파랑
-
-+ 빨강
-  + 녹색
-    + 파랑
-
-- 빨강
-  - 녹색
-    - 파랑
+1. item1
+    1. sub1
+    1. sub2
+1. item2
+    1. sub1
+    1. sub2
+1. item3
+    1. sub1
+    1. sub2
 
 
-혼합사용도 가능하다
+#### 순서 없는 목록
 
-#### 작성예시
+`*` 혹은 `-`를 구분 없이 사용하여 목록을 구성한다. 하위 목록 구성도 가능하다.
+
+**`*` 혹은 `-` 뒤에 공백이 필요하다.**
 
 ```markdown
-* 1단계
-  - 2단계
-    + 3단계
-      + 4단계
-```
-
-##### 💻 출력결과
-
-* 1단계
-  - 2단계
-    + 3단계
-      + 4단계
-
-## 4. 코드
-
-코드블럭코드("\`\`\`") 시작점에 사용하는 언어를 선언
-
-#### 작성예시
-
-<pre>
-<code>
-```java
-public class BootSpringBootApplication {
-  public static void main(String[] args) {
-    System.out.println("Hello, Honeymon");
-  }
-}
-```
-</code>
-</pre>
-
-##### 💻 출력결과
-
-```java
-public class BootSpringBootApplication {
-  public static void main(String[] args) {
-    System.out.println("Hello, Honeymon");
-  }
-}
+* item1
+    - sub1
+    - sub2
+* item2
+    * sub1
+    * sub2
+- item3
+    - sub2
+    - sub2
+- item4
+    * sub1
+    - sub2
 ```
 
 
-## 5. 수평선 `<hr/>`
+##### 미리보기
 
-아래 줄은 모두 수평선을 만든다. 마크다운 문서를 미리보기로 출력할 때 *페이지 나누기* 용도로 많이 사용한다.
+* item1
+    - sub1
+    - sub2
+* item2
+    * sub1
+    * sub2
+- item3
+    - sub2
+    - sub2
+- item4
+    * sub1
+    - sub2
 
-#### 작성예시
+#### 순서 있는 목록과 순서 없는 목록 함께 사용하기
 
 ```markdown
-* * *
-
-***
-
-*****
-
-- - -
-
----
+1. main1
+    * sub1
+    * sub2
+1. main2
+    1. sub-number1
+    1. sub-number2
+1. main3
+    * sub3
+    * sub4
 ```
 
-##### 💻 출력결과
+##### 미리보기
 
-* * *
+1. main1
+    * sub1
+    * sub2
+1. main2
+    1. sub-number1
+    1. sub-number2
+1. main3
+    * sub3
+    * sub4
 
-***
+### #03. 소스코드 정리하기
 
-*****
+역따옴표 세개(\`\`\`)를 연달아 표시하고  그 뒤에 사용하고자 하는 프로그래밍 언어를 명시한 후 다시 역따옴표 세개로 블록을 만들면 그 안에서 프로그래밍 언어에 대한 설명을 작성할 수 있다.
 
-- - -
+<pre>```python
+for i in range(5):
+    print("Hello World")
+```</pre>
 
----
+##### 미리보기
 
-
-## 6. 링크
-
-```
-사용문법: [Title](link)
-```
-
-#### 작성예시
-
-```markdown
-적용예: [Google](https://google.com)
-```
-
-##### 💻 출력결과
-
-Link: [Google](https://google.com)
-
-
-## 7. 강조
-
-#### 작성예시
-
-```markdown
-*single asterisks*
-**double asterisks**
-~~cancelline~~
+```python
+for i in range(5):
+    print("Hello World")
 ```
 
-##### 💻 출력결과
+## #04. Markdown PDF 변환하기
 
-* *single asterisks*
-* **double asterisks**
-* ~~cancelline~~
+Visual Studio Code Extension에서 `Markdown PDF`를 설치가 되어 있어야 한다.
 
-> ```문장 중간에 사용할 경우에는 **띄어쓰기** 를 사용하는 것이 좋다.```   
-> 문장 중간에 사용할 경우에는 띄어쓰기를 사용하는 것이 좋다.
+![md01](/images/posts/2022/0213/md01.png)
 
+작성중인 Markdown 파일에서 `Ctrl + Shift + P`를 눌러서 명령창을 열고 **`Markdown pdf`**로 검색한 후 **`Markdown PDF: Export (pdf)`** 항목을 선택한다.
 
-## 8. 이미지
+![md02](/images/posts/2022/0213/md02.png)
 
-사이즈 조절 기능은 없다.
-
-#### 작성예시
-
-```markdown
-![컴퓨팅](/images/posts/index-computing.png)
-```
-
-##### 💻 출력결과
-
-![컴퓨팅](/images/posts/index-computing.png)
-
-
-# #04. 과제물 제출 양식
-
-아래 소스코드 양식을 기반으로 markdown으로 작성 후 VSCode의 PDF 변환 기능을 사용하여 제출.
-
-#### 작성예시
-
-<pre>
-<code>
-# 이광호 OOO과제 
-
-> 2021-01-19
-
-# 문제1
-
-```javascript
-const name = req.body.name;
-
-if (name === undefined) {
-    console.log('이름이 없습니다.');
-}
-```
-
-실행결과의 스크린샷
-
-
-# 문제2
-
-
-```javascript
-const name = req.body.name;
-
-if (name === undefined) {
-    console.log('이름이 없습니다.');
-}
-```
-
-실행결과의 스크린샷
-</code>
-</pre>
-
-
-##### 💻 출력결과
-
-![과제양식](/images/posts/2022/0213/pdf.png)
-
----
-
-# 참고문헌
-
-- [Kim, Ji-Heon. “마크다운(Markdown) 사용법,” March 13, 2022. https://gist.github.com/ihoneymon/652be052a0727ad59601](https://gist.github.com/ihoneymon/652be052a0727ad59601)
+이 때 명령창 맨 앞에 `>`가 반드시 포함되어야 한다. 실수로 `>`를 삭제한 경우 다시 입력해야 한다.
