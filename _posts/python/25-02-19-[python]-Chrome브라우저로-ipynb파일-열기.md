@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[파이썬] Chrome 브라우저로 ipynb 파일 열기"
-date:   2025-02-29
+date:   2025-02-19
 banner_image: index-computing.png
 tags: [Python]
 ---
